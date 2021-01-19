@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!-- saved from url=(0096)http://react-responsive-carousel.js.org/storybook/iframe.html?id=01-basic-%2Dbase&viewMode=story -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Storybook</title><meta name="viewport" content="width=device-width,initial-scale=1"><!--<base target="_parent">--><base href="." target="_parent"><style>:not(.sb-show-main) > .sb-main,
+  :not(.sb-show-nopreview) > .sb-nopreview,
+  :not(.sb-show-errordisplay) > .sb-errordisplay {
+    display: none;
+  }
+
+  .sb-wrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    font-family: "Nunito Sans", -apple-system, ".SFNSText-Regular", "San Francisco", BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    overflow: auto;
+  }
+
+  .sb-heading {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    margin: 10px 0;
+    padding-right: 25px;
+  }
+
+  .sb-nopreview {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .sb-nopreview_main {
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.03);
+  }
+
+  .sb-nopreview_heading {
+    text-align: center;
+  }
+
+  .sb-errordisplay {
+    border: 20px solid rgb(187, 49, 49);
+    background: #222;
+    color: #fff;
+    z-index: 999999;
+  }
+
+  .sb-errordisplay_code {
+    padding: 10px;
+    background: #000;
+    color: #eee;
+    font-family: "Operator Mono", "Fira Code Retina", "Fira Code", "FiraCode-Retina", "Andale Mono", "Lucida Console", Consolas, Monaco, monospace;
+  }
+
+  .sb-errordisplay pre {
+    white-space: pre-wrap;
+  }</style><script>/* globals window */
+  /* eslint-disable no-underscore-dangle */
+  try {
+    if (window.top !== window) {
+      window.__REACT_DEVTOOLS_GLOBAL_HOOK__ = window.top.__REACT_DEVTOOLS_GLOBAL_HOOK__;
+      window.__VUE_DEVTOOLS_GLOBAL_HOOK__ = window.top.__VUE_DEVTOOLS_GLOBAL_HOOK__;
+      window.top.__VUE_DEVTOOLS_CONTEXT__ = window.document;
+    }
+  } catch (e) {
+    // eslint-disable-next-line no-console
+    console.warn('unable to connect to top frame for connecting dev tools');
+  }</script><script>window.ga =
+        window.ga ||
+        function() {
+            (ga.q = ga.q || []).push(arguments);
+        };
+    ga.l = +new Date();
+    ga('create', 'UA-62004510-3', 'auto');
+    ga('send', 'pageview');</script><script async="" src="./analytics.js"></script><style>#root[hidden],
+      #docs-root[hidden] {
+        display: none !important;
+      }</style><style>*{margin:0;padding:0;list-style:none;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}body{font-family:"Roboto",sans-serif;font-size:16px;font-weight:400;color:#333}h1,h2,h3,h4{font-weight:700;margin:20px 0}h1{font-weight:700;font-size:2.5em}h2{border-top:1px solid #999;padding-top:40px;margin-top:40px;font-size:2em}h3{font-size:1.4em}h4{font-size:1.1em;margin-bottom:10px}code{border-radius:20px;background:#f5f5f5;padding:20px;text-indent:0;color:#333;display:block;margin:auto;overflow:scroll;width:100%}.wrapper{padding:30px}.wrapper .demo-gallery,.wrapper .demo-slider,.wrapper .demo-carousel{margin:30px -30px}.wrapper .demo{display:block;margin:30px 0;padding-bottom:30px;border-bottom:1px solid #333}.wrapper .demo:last-child{border-bottom:0}.list-items,.summary{margin-left:50px}.list-items li,.summary li{line-height:2;list-style-type:circle}.list-items li ul,.summary li ul{margin-left:30px}.demo-gallery,.demo-slider,.demo-carousel{margin:50px auto}.demo-gallery .thumb{width:200px}.demo-carousel{width:100%;margin:30px auto !important}.demo-carousel .thumb{width:120px}.example{margin:20px 0}.parent{background:#333}.page-carousel{padding:40px;border:1px solid #fff;width:80%;margin:40px auto}h5{margin-bottom:10px}
+</style><style>.carousel .control-arrow,.carousel.carousel-slider .control-arrow{-webkit-transition:all .25s ease-in;-moz-transition:all .25s ease-in;-ms-transition:all .25s ease-in;-o-transition:all .25s ease-in;transition:all .25s ease-in;opacity:.4;filter:alpha(opacity=40);position:absolute;z-index:2;top:20px;background:none;border:0;font-size:32px;cursor:pointer}.carousel .control-arrow:hover{opacity:1;filter:alpha(opacity=100)}.carousel .control-arrow:before,.carousel.carousel-slider .control-arrow:before{margin:0 5px;display:inline-block;border-top:8px solid transparent;border-bottom:8px solid transparent;content:''}.carousel .control-disabled.control-arrow{opacity:0;filter:alpha(opacity=0);cursor:inherit;display:none}.carousel .control-prev.control-arrow{left:0}.carousel .control-prev.control-arrow:before{border-right:8px solid #fff}.carousel .control-next.control-arrow{right:0}.carousel .control-next.control-arrow:before{border-left:8px solid #fff}.carousel-root{outline:none}.carousel{position:relative;width:100%}.carousel *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.carousel img{width:100%;display:inline-block;pointer-events:none}.carousel .carousel{position:relative}.carousel .control-arrow{outline:0;border:0;background:none;top:50%;margin-top:-13px;font-size:18px}.carousel .thumbs-wrapper{margin:20px;overflow:hidden}.carousel .thumbs{-webkit-transition:all .15s ease-in;-moz-transition:all .15s ease-in;-ms-transition:all .15s ease-in;-o-transition:all .15s ease-in;transition:all .15s ease-in;-webkit-transform:translate3d(0, 0, 0);-moz-transform:translate3d(0, 0, 0);-ms-transform:translate3d(0, 0, 0);-o-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0);position:relative;list-style:none;white-space:nowrap}.carousel .thumb{-webkit-transition:border .15s ease-in;-moz-transition:border .15s ease-in;-ms-transition:border .15s ease-in;-o-transition:border .15s ease-in;transition:border .15s ease-in;display:inline-block;margin-right:6px;white-space:nowrap;overflow:hidden;border:3px solid #fff;padding:2px}.carousel .thumb:focus{border:3px solid #ccc;outline:none}.carousel .thumb.selected,.carousel .thumb:hover{border:3px solid #333}.carousel .thumb img{vertical-align:top}.carousel.carousel-slider{position:relative;margin:0;overflow:hidden}.carousel.carousel-slider .control-arrow{top:0;color:#fff;font-size:26px;bottom:0;margin-top:0;padding:5px}.carousel.carousel-slider .control-arrow:hover{background:rgba(0,0,0,0.2)}.carousel .slider-wrapper{overflow:hidden;margin:auto;width:100%;-webkit-transition:height .15s ease-in;-moz-transition:height .15s ease-in;-ms-transition:height .15s ease-in;-o-transition:height .15s ease-in;transition:height .15s ease-in}.carousel .slider-wrapper.axis-horizontal .slider{-ms-box-orient:horizontal;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-moz-flex;display:-webkit-flex;display:flex}.carousel .slider-wrapper.axis-horizontal .slider .slide{flex-direction:column;flex-flow:column}.carousel .slider-wrapper.axis-vertical{-ms-box-orient:horizontal;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-moz-flex;display:-webkit-flex;display:flex}.carousel .slider-wrapper.axis-vertical .slider{-webkit-flex-direction:column;flex-direction:column}.carousel .slider{margin:0;padding:0;position:relative;list-style:none;width:100%}.carousel .slider.animated{-webkit-transition:all .35s ease-in-out;-moz-transition:all .35s ease-in-out;-ms-transition:all .35s ease-in-out;-o-transition:all .35s ease-in-out;transition:all .35s ease-in-out}.carousel .slide{min-width:100%;margin:0;position:relative;text-align:center;background:#000}.carousel .slide img{width:100%;vertical-align:top;border:0}.carousel .slide iframe{display:inline-block;width:calc(100% - 80px);margin:0 40px 40px;border:0}.carousel .slide .legend{-webkit-transition:all .5s ease-in-out;-moz-transition:all .5s ease-in-out;-ms-transition:all .5s ease-in-out;-o-transition:all .5s ease-in-out;transition:all .5s ease-in-out;position:absolute;bottom:40px;left:50%;margin-left:-45%;width:90%;border-radius:10px;background:#000;color:#fff;padding:10px;font-size:12px;text-align:center;opacity:0.25;-webkit-transition:opacity .35s ease-in-out;-moz-transition:opacity .35s ease-in-out;-ms-transition:opacity .35s ease-in-out;-o-transition:opacity .35s ease-in-out;transition:opacity .35s ease-in-out}.carousel .control-dots{position:absolute;bottom:0;margin:10px 0;text-align:center;width:100%}@media (min-width: 960px){.carousel .control-dots{bottom:0}}.carousel .control-dots .dot{-webkit-transition:opacity .25s ease-in;-moz-transition:opacity .25s ease-in;-ms-transition:opacity .25s ease-in;-o-transition:opacity .25s ease-in;transition:opacity .25s ease-in;opacity:.3;filter:alpha(opacity=30);box-shadow:1px 1px 2px rgba(0,0,0,0.9);background:#fff;border-radius:50%;width:8px;height:8px;cursor:pointer;display:inline-block;margin:0 8px}.carousel .control-dots .dot.selected,.carousel .control-dots .dot:hover{opacity:1;filter:alpha(opacity=100)}.carousel .carousel-status{position:absolute;top:0;right:0;padding:5px;font-size:10px;text-shadow:1px 1px 1px rgba(0,0,0,0.9);color:#fff}.carousel:hover .slide .legend{opacity:1}
+</style><style>.presentation-mode .my-slide{display:flex;align-items:center;justify-content:center;text-align:center;height:100vh;padding:75px;line-height:1.5;font-size:1.5em;color:#f5f5f5}.presentation-mode .my-slide h1,.presentation-mode .my-slide h2,.presentation-mode .my-slide h3,.presentation-mode .my-slide h4,.presentation-mode .my-slide h5,.presentation-mode .my-slide h6,.presentation-mode .my-slide p,.presentation-mode .my-slide ul,.presentation-mode .my-slide ol{border:0;margin:10px auto;padding:0;display:inline-block;width:100%}.presentation-mode .my-slide.complex{text-align:left;flex-direction:column;justify-content:flex-start}.presentation-mode .my-slide.complex h1,.presentation-mode .my-slide.complex h2,.presentation-mode .my-slide.complex h3,.presentation-mode .my-slide.complex h4,.presentation-mode .my-slide.complex h5,.presentation-mode .my-slide.complex h6,.presentation-mode .my-slide.complex p,.presentation-mode .my-slide.complex ul,.presentation-mode .my-slide.complex ol{margin-bottom:30px}.presentation-mode .my-slide ul,.presentation-mode .my-slide ol{margin:10px;padding-left:75px}.presentation-mode .my-slide ol li{list-style:decimal !important}.presentation-mode .my-slide ul li{list-style:disc}.presentation-mode .my-slide p{font-size:1.2em}.presentation-mode .my-slide strong,.presentation-mode .my-slide em{color:#ccc}.presentation-mode .my-slide a{color:#D6D600;border-bottom:3px dotted #D6D600;text-decoration:none}.presentation-mode .my-slide iframe,.presentation-mode .my-slide img{width:100vw;height:100vh;margin:-75px}.presentation-mode .my-slide ul,.presentation-mode .my-slide ol,.presentation-mode .my-slide li{text-align:left}.presentation-mode .my-slide blockquote{position:relative;color:#f5f5f5;text-align:left;border-left:10px solid #ccc;margin:1.5em 10px;padding:0.5em 10px;padding-left:50px;quotes:"“" "”" "‘" "’"}.presentation-mode .my-slide blockquote:before{color:#ccc;content:open-quote;position:absolute;left:10px;top:30px;font-size:4em;line-height:0.1em;margin-right:0.25em;vertical-align:-0.4em}.presentation-mode .my-slide blockquote p{display:inline}.presentation-mode .my-slide.primary{background-color:#009}.presentation-mode .my-slide.secondary{background-color:#4D0099}.presentation-mode .my-slide.content{background-color:#004D99}
+</style></head><body class="sb-show-main"><div class="sb-nopreview sb-wrapper"><div class="sb-nopreview_main"><h1 class="sb-nopreview_heading sb-heading">No Preview</h1><p>Sorry, but you either have no stories or none are selected somehow.</p><ul><li>Please check the Storybook config.</li><li>Try reloading the page.</li></ul><p>If the problem persists, check the browser console, or the terminal you've run Storybook from.</p></div></div><div class="sb-errordisplay sb-wrapper"><pre id="error-message" class="sb-heading"></pre><pre class="sb-errordisplay_code"><code id="error-stack"></code></pre></div><div id="root"><div class="carousel-root" tabindex="0"><div class="carousel carousel-slider" style="width: 100%;"><button type="button" aria-label="previous slide / item" class="control-arrow control-prev"></button><div class="slider-wrapper axis-horizontal" style="height: 140px;"><ul class="slider animated" style="transform: translate3d(-300%, 0px, 0px); height: 140px; transition-duration: 150ms;"><li class="slide"><div><img src="./5.jpeg"><p class="legend">Legend 5</p></div></li><li class="slide"><div><img src="./1.jpeg"><p class="legend">Legend 1</p></div></li><li class="slide"><div><img src="./2.jpeg"><p class="legend">Legend 2</p></div></li><li class="slide selected"><div><img src="./3.jpeg"><p class="legend">Legend 3</p></div></li><li class="slide"><div><img src="./4.jpeg"><p class="legend">Legend 4</p></div></li><li class="slide"><div><img src="./5.jpeg"><p class="legend">Legend 5</p></div></li><li class="slide"><div><img src="./1.jpeg"><p class="legend">Legend 1</p></div></li></ul></div><button type="button" aria-label="next slide / item" class="control-arrow control-next"></button><ul class="control-dots"><li class="dot" value="0" role="button" tabindex="0" aria-label="slide item 1"></li><li class="dot" value="1" role="button" tabindex="0" aria-label="slide item 2"></li><li class="dot selected" value="2" role="button" tabindex="0" aria-label="slide item 3"></li><li class="dot" value="3" role="button" tabindex="0" aria-label="slide item 4"></li><li class="dot" value="4" role="button" tabindex="0" aria-label="slide item 5"></li></ul><p class="carousel-status">3 of 5</p></div><div class="carousel"><div class="thumbs-wrapper axis-vertical"><button type="button" class="control-arrow control-prev" aria-label="previous slide / item"></button><ul class="thumbs animated" style="transform: translate3d(-200px, 0px, 0px); transition-duration: 150ms;"><li class="thumb" aria-label="slide item 1" role="button" tabindex="0" style="width: 100px;"><img src="./1.jpeg"></li><li class="thumb" aria-label="slide item 2" role="button" tabindex="0" style="width: 100px;"><img src="./2.jpeg"></li><li class="thumb selected" aria-label="slide item 3" role="button" tabindex="0" style="width: 100px;"><img src="./3.jpeg"></li><li class="thumb" aria-label="slide item 4" role="button" tabindex="0" style="width: 100px;"><img src="./4.jpeg"></li><li class="thumb" aria-label="slide item 5" role="button" tabindex="0" style="width: 100px;"><img src="./5.jpeg"></li></ul><button type="button" class="control-arrow control-next" aria-label="next slide / item"></button></div></div></div></div><div id="docs-root"></div><script src="./runtime_main.e00fdd06e707d3916dbf.bundle.js"></script><script src="./vendors_main.e00fdd06e707d3916dbf.bundle.js"></script><script src="./main.e00fdd06e707d3916dbf.bundle.js"></script></body></html>
